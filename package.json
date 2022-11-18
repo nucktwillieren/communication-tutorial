@@ -1,0 +1,28 @@
+{
+  "name": "communication-tutorial",
+  "version": "1.0.0",
+  "description": "for WURET",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/nucktwillieren/communication-tutorial.git"
+  },
+  "author": "nucktwillieren",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nucktwillieren/communication-tutorial/issues"
+  },
+  "homepage": "https://github.com/nucktwillieren/communication-tutorial#readme",
+  "dependencies": {
+    "@grpc/grpc-js": "^1.7.3",
+    "@grpc/proto-loader": "^0.7.3",
+    "axios": "^1.1.3",
+    "bcrypt": "^5.1.0",
+    "express": "^4.18.2",
+    "redis": "^4.5.0",
+    "ws": "^8.11.0"
+  }
+}

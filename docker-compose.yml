@@ -1,0 +1,19 @@
+version: "3.9"
+
+services:
+  realtime-bus:
+    image: "redis:alpine"
+    ports:
+      - "16666:6379"
+    volumes:
+      - realtime-bus-data:/data
+    networks:
+      - wuret
+    restart: always
+
+volumes:
+  realtime-bus-data: null
+
+networks:
+  wuret:
+    external: true
