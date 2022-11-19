@@ -20,7 +20,8 @@ const ourServer = new grpc.Server();
 let dummyRecords = {
   "passwords": [
     { id: "153642", password: "default1", hashValue: "default", saltValue: "default" },
-    { id: "234654", password: "default2", hashValue: "default", saltValue: "default" }]
+    { id: "234654", password: "default2", hashValue: "default", saltValue: "default" },
+  ]
 };
 
 ourServer.addService(grpcObj.PasswordService.service, {
